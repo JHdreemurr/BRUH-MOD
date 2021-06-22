@@ -1,0 +1,20 @@
+type: OverdriveProjector
+localizedName: The clock of time
+description: greatly alters time and space itself to increase the speed of nearby ally buildings by 10 fold.
+size: 1
+health: 720
+range: 40
+baseColor: 87a3ff
+phaseColor: c0cfff
+speedBoost: 10.0
+  booster: false
+  optional: true
+
+requirements: [
+  lead/135
+  silicon/55
+  titanium/75
+  surge-alloy/45
+]
+research: overdrive-projector
+category: effect
