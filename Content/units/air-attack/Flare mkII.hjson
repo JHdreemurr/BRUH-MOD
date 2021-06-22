@@ -1,0 +1,83 @@
+type: flying
+localizedName: Flare mkII
+description: this modified flare chassis has been built to fly faster and shoot quicker then the standard flare,also armed with blue bullets that do more damage then the standard flare cannon.
+flying: true
+health: 550
+speed: 3.5
+commandlimit: 10
+rotateSpeed: 15
+circleTarget: true
+lightRadius: 25
+lightColor: e65555
+weapons: [
+  { name: Flare-cannon
+    rotate: false
+    mirror: true
+    x: -5
+    y: 0
+    shootY: 4
+    reload: 20
+    shootSound: Lasershoot
+    shake: 0
+    bullet: {
+      type: StandardBulletType
+      damage: 26
+      speed: 4
+      recoil: 0
+      frontColor: 0200FF
+      backColor: 0021E7
+      collidesTeam: false
+      width: 5
+      lifetime: 25
+      lightColor: 3161FF
+      smokeEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 3A52F1
+        colorTo: 3A52F1
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    }
+  }
+    
+ {  name: Flare-cannon
+    rotate: false
+    mirror: false
+    x: 5
+    y: 0
+    shootY: 4
+    reload: 20
+    shootSound: Lasershoot
+    shake: 0
+    bullet: {
+      type: StandardBulletType
+      damage: 26
+      speed: 4
+      recoil: 0
+      frontColor: 0200FF
+      backColor: 0021E7
+      collidesTeam: false
+      width: 5
+      lifetime: 25
+      lightColor: 3161FF
+      smokeEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 3A52F1
+        colorTo: 3A52F1
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+     }
+    }
+  }
+]
+research: {
+parent: flare
+objectives: [recreator additive-reconstructor]
+     }
+catagory: units
