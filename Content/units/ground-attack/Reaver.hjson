@@ -1,0 +1,50 @@
+type: mech
+localizedName: Reaver
+description: "armed with 2 auto cannons, the reaver shoots in bursts."
+flying: false
+health: 660
+speed: 0.6
+armor: 2
+commandlimit: 10
+rotateSpeed: 15
+circleTarget: true
+lightRadius: 25
+lightColor: e65555
+weapons: [
+  {
+  name: Reaver-autocannon
+    alternate: true
+    x: 2
+    y: 0
+    shootY: 4
+    reload: 15
+    shootSound: pew
+    shake: 0.5
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 18
+      speed: 6
+      recoil: 0
+      frontColor: 0200FF
+      backColor: 0021E7
+      collidesTeam: true
+      lifetime: 25
+      lightColor: 3161FF
+      smokeEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 3A52F1
+        colorTo: 3A52F1
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    }   
+  }
+]
+research: {
+parent: dagger
+objectives: [constructor]
+     }
+catagory: units
