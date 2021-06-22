@@ -1,0 +1,32 @@
+type: flying
+localizedName: Sword
+description: armed with the same weapon as the ember, the sword shoots lasers at enemys then rams them to death.
+flying: true
+health: 450
+speed: 3.5
+commandlimit: 10
+rotateSpeed: 20
+circleTarget: true
+lightRadius: 25
+lightColor: e65555
+weapons: [
+  {
+    name: Sword-ram
+    x: 0
+    y: 0
+    mirror: false
+    shootSound: none
+    reload: 15
+    bullet: {
+      type: RailBulletType
+      damage: 67
+      pierceDamageFactor: 0
+      length: 80
+      recoil: -40
+      shootEffect: none
+      smokeEffect: none
+    }
+  }
+]
+research: recreator
+catagory: units
