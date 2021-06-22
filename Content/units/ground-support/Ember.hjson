@@ -1,0 +1,78 @@
+type: legs
+localizedName: Ember
+description: Armed with High Energy Laser Propulsors, the ember shoots laserbolts at enemy units and heals ally structures.
+flying: false
+health: 480
+speed: 0.8
+buildSpeed: 1
+rotateSpeed: 10
+circleTarget: false
+lightRadius: 25
+lightColor: 342AFB
+weapons: [
+  {
+name: Ember-weapon
+    mirror: false
+    x: 3.5
+    y: 0
+    shootY: 4
+    reload: 15
+    shootSound: lasershoot
+    shake: 0.5
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 18
+      speed: 6
+      recoil: 0
+      frontColor: 0200FF
+      backColor: 0021E7
+      collidesTeam: true
+      lifetime: 25
+      healPercent: 4
+      lightColor: 3161FF
+      smokeEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 3A52F1
+        colorTo: 3A52F1
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    }
+  }
+  { name: Ember-weapon
+    mirror: false
+    x: -3.5
+    y: 0
+    shootY: 4
+    reload: 15
+    shootSound: lasershoot
+    shake: 0.5
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 18
+      speed: 6
+      recoil: 0
+      frontColor: 0200FF
+      backColor: 0021E7
+      collidesTeam: true
+      lifetime: 25
+      healPercent: 4
+      lightColor: 3161FF
+      smokeEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 3A52F1
+        colorTo: 3A52F1
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    }
+  }
+]
+research: constructor
+catagory: units
