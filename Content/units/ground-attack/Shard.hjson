@@ -1,0 +1,44 @@
+type: mech
+localizedName: Shard
+description: this unit go f l e m s.
+flying: false
+health: 660
+speed: 1.0
+armor: 2
+commandlimit: 10
+rotateSpeed: 15
+circleTarget: true
+lightRadius: 25
+lightColor: e65555
+weapons: [
+  {
+  name: Shard-flamethrower
+  y: 2
+  x: 0
+  shootY: 1
+  reload: 14
+  shootSound: flame
+  ejectEffect: none
+  bullet: {
+    speed: 4
+    damage: 20
+    hitSize: 7
+    lifetime: 12
+    width: 1
+    height: 1
+    pierce: true
+    statusDuration: 240
+    shootEffect: shootSmallFlame
+    hitEffect: hitFlameSmall
+    despawnEffect: none
+    status: burning
+    keepVelocity: false
+    hittable: false
+    }
+  }
+]
+research: {
+parent: dagger
+objectives: [constructor]
+     }
+catagory: units
