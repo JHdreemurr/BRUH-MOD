@@ -1,0 +1,31 @@
+type: flying
+localizedName: Dart
+description: Attacks units by dashing forward and stabbing them, also acts as a good scout.
+flying: true
+health: 75
+speed: 3.4
+rotateSpeed: 20
+circleTarget: true
+lightRadius: 25
+lightColor: e65555
+weapons: [
+  {
+    name: outbreak-ram
+    x: 0
+    y: 0
+    mirror: false
+    shootSound: none
+    reload: 25
+    bullet: {
+      type: RailBulletType
+      damage: 10
+      pierceDamageFactor: 0
+      length: 80
+      recoil: -40
+      shootEffect: none
+      smokeEffect: none
+    }
+  }
+]
+research: constructor
+catagory: units
