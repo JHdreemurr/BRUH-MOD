@@ -1,0 +1,8 @@
+  type: status
+  name: godlike
+  localizedName: Godlike
+  speedMultiplier: 1.25
+  reloadMultiplier: 2
+  buildSpeedMultiplier: 2
+  healthMultiplier:100000000
+  opposites: [Paralized]
