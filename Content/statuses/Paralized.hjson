@@ -1,0 +1,9 @@
+  type: status
+  name: paralized
+  localizedName: Paralized
+  damage: 2
+  speedMultiplier: 0.001
+  reloadMultiplier: 0.001
+  buildSpeedMultiplier: 0.001
+  affinities: [wet]
+  opposites: [overclock]
