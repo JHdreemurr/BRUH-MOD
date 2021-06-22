@@ -1,0 +1,13 @@
+type: Wall
+localizedName: Wall
+description: "haha wall go BRRRRRRRRRRRRR."
+chanceDeflect: 550
+health: 42069
+size: 1
+lightningChance: 1
+lightningDamage: 450
+requirements: [
+  scrap/69420
+  ]
+category: defense
+research: core-shard
