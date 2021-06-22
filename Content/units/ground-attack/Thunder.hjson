@@ -1,0 +1,45 @@
+type: mech
+localizedName: Thunder
+description: this unit go l i t i n i n g.
+flying: false
+health: 660
+speed: 1.0
+armor: 2
+commandlimit: 10
+rotateSpeed: 15
+circleTarget: true
+lightRadius: 25
+lightColor: e65555
+weapons: [
+  {
+  name: Thunder-tazer
+  y: 2
+  x: 0
+  shootY: 1
+  shots: 3
+  reload: 14
+  shootSound: spark
+  ejectEffect: none
+  bullet: {
+    speed: 4
+    damage: 20
+    hitSize: 7
+    type: LightningBulletType
+    lightningLength: 10
+    lightningLengthRand: 13
+    bulletcolor: e65555
+    lifetime: 2
+    width: 1
+    height: 1
+    pierce: true
+    despawnEffect: none
+    keepVelocity: false
+    hittable: false
+    }
+  }
+]
+research: {
+parent: dagger
+objectives: [constructor]
+     }
+catagory: units
