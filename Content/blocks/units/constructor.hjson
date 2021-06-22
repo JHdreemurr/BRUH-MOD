@@ -1,0 +1,55 @@
+type: UnitFactory
+name: Constructor
+description: Produces 4 diffrent basic units. 
+size: 3
+consumes: {
+  power: 5
+}
+plans: [
+  {
+    unit: Ember
+    time: 1250
+    requirements: [
+      silicon/20
+      lead/35
+    ] 
+  }
+  {
+    unit: Dart
+    time: 500
+    requirements: [
+      silicon/15
+    ]
+   }
+   {
+    unit: Shard
+    time: 1500
+    requirements: [
+      silicon/20
+      lead/35
+      titanium/15
+    ]
+  }
+  {
+   unit: Thunder
+   time: 1500
+   requirements:  [
+       silicon/25
+       titanium/30
+      ]
+    }
+  {
+    unit: Reaver
+    time: 1500
+    requirements:  [
+        copper/1
+       ]
+     }
+   ]
+requirements: [
+  lead/75
+  silicon/40
+  titanium/20
+]
+research: core-shard
+category: units
