@@ -1,0 +1,84 @@
+type: legs
+localizedName: Flame
+description: Armed with a High Energy Laser emitter, flame shoots piercing lasers that cut through enemy units like butter.
+flying: false
+health: 820
+canBoost: true
+alternate: true
+speed: 0.7
+buildSpeed: 2.5
+rotateSpeed: 10
+leglength: 40
+circleTarget: false
+lightRadius: 25
+lightColor: 342AFB
+weapons: [
+  {
+name: Flame-weapon
+    mirror: false
+    x: -5
+    y: -1
+    shootY: 4
+    reload: 30
+    shootSound: lasershoot
+    shake: 0.5
+    bullet: {
+      type: LaserBulletType
+      damage: 47
+      speed: 0.01
+      recoil: 0
+      frontColor: 0200FF
+      backColor: 0021E7
+      collidesTeam: true
+      width: 5
+      lifetime: 25
+      healPercent: 4
+      lightColor: 3161FF
+      smokeEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 3A52F1
+        colorTo: 3A52F1
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    }
+  }
+  {name: Flame-weapon
+    mirror: false
+    x: 5
+    y: -1
+    shootY: 4
+    reload: 30
+    shootSound: lasershoot
+    shake: 0.5
+    bullet: {
+      type: LaserBulletType
+      damage: 47
+      speed: 0.01
+      recoil: 0
+      frontColor: 0200FF
+      backColor: 0021E7
+      collidesTeam: true
+      width: 5
+      lifetime: 25
+      healPercent: 4
+      lightColor: 3161FF
+      smokeEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: 3A52F1
+        colorTo: 3A52F1
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+        }
+      }
+    }
+ ]
+objectives:[constructor recreator
+  copper/1300 lead/800 silicon/1400]
+catagory: units
