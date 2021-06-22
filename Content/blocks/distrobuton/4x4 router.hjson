@@ -1,0 +1,12 @@
+type: Router
+name: splitter
+size: 4
+health: 150
+solid: true
+floating: true
+description: its a 4x4 router, what more is there to say?
+requirements: [
+  copper/30
+]
+category: distribution
+research: distributor
